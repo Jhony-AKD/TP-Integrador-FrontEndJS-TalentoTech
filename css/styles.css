@@ -4,9 +4,10 @@ body {
     margin: 0;
     padding: 0;
     /*background: linear-gradient(135deg, #4a0e21, #7b1129); /* Degradado bordó */
-    background: #f5e6e8;
-    color: #f5e6e8; /* Color claro para contraste */
+    background: #eedfcb;
+    color: #5e1a34; /* Color claro para contraste */
     line-height: 1.6;
+    text-align: center;
   }
   
   header {
@@ -37,12 +38,6 @@ body {
     color: #d49e9f; /* tono más claro bordó para hover */
   }
   
-  /*h1 {
-    margin: 0;
-    font-weight: 700;
-    font-size: 3.5rem;
-  }*/
-  
   main {
     padding: 20px;
     max-width: 1200px;
@@ -58,6 +53,14 @@ body {
     margin-top: 20px;
     max-width: 100%;
     border-radius: 8px;
+  }
+  
+  .video-bienvenida {
+  width: 100%;
+  max-width: 600px;
+  border-radius: 8px;
+  display: block;
+  margin: 20px auto;
   }
   
   /* Flexbox para productos */
@@ -195,5 +198,16 @@ body {
       padding: 15px;
       margin: 20px 10px;
     }
+
+    .logoMD {
+      width: 80%;
+    }
   }
+
+  @media (max-width: 768px) and (orientation: landscape) {
+    .logoMD {
+      width: 50%;
+    }
+  }
+
   
