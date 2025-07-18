@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "nombre": "Esmalte Magenta",
+    "precio": 1200,
+    "imagen": "../media/img/esmaltes/Magenta.jpg"
+  },
+  {
+    "id": 2,
+    "nombre": "Esmalte Rojo",
+    "precio": 1200,
+    "imagen": "../media/img/esmaltes/Rojo.jpg"
+  },
+  {
+    "id": 3,
+    "nombre": "Esmalte Naranja",
+    "precio": 1200,
+    "imagen": "../media/img/esmaltes/Naranja.jpg"
+  },
+  {
+    "id": 4,
+    "nombre": "Esmalte Nude",
+    "precio": 1200,
+    "imagen": "../media/img/esmaltes/Nude.jpg"
+  },
+  {
+    "id": 5,
+    "nombre": "Esmalte Ciruela",
+    "precio": 1200,
+    "imagen": "../media/img/esmaltes/Ciruela.jpg"
+  },
+  {
+    "id": 6,
+    "nombre": "Esmalte Malva",
+    "precio": 1200,
+    "imagen": "../media/img/esmaltes/Malva.jpg"
+  },
+  {
+    "id": 7,
+    "nombre": "Esmalte Rosa",
+    "precio": 1200,
+    "imagen": "../media/img/esmaltes/Rosa.jpg"
+  },
+  {
+    "id": 8,
+    "nombre": "Esmalte Salmon",
+    "precio": 1200,
+    "imagen": "../media/img/esmaltes/Salmon.jpg"
+  },
+  {
+    "id": 9,
+    "nombre": "Esmalte Violeta",
+    "precio": 1200,
+    "imagen": "../media/img/esmaltes/Violeta.jpg"
+  },
+  {
+    "id": 10,
+    "nombre": "Esmalte Purpura",
+    "precio": 1200,
+    "imagen": "../media/img/esmaltes/Purpura.jpg"
+  },
+  {
+    "id": 11,
+    "nombre": "Esmalte Azul",
+    "precio": 1200,
+    "imagen": "../media/img/esmaltes/Azul.jpg"
+  },
+  {
+    "id": 12,
+    "nombre": "Esmalte Lila",
+    "precio": 1200,
+    "imagen": "../media/img/esmaltes/Lila.jpg"
+  }
+]

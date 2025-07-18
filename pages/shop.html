@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Tienda | MD Estética</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../css/styles.css" />
+</head>
+<body>
+  <header>
+    <nav>
+      <ul class="nav-list">
+        <li><a href="../index.html">Inicio</a></li>
+        <li><a href="shop.html" class="active">Shop</a></li>
+        <li><a href="#carrito">Carrito</a></li>
+      </ul>
+    </nav>
+    <img src="../media/img/LogoMD_3.jpg" class="logoMD" width="40%" alt="Logo MD Estetica Integral">
+  </header>
+
+  <main>
+    <h2>Productos Disponibles</h2>
+    <div class="grid-productos" id="productos-container"></div>
+
+    <section id="carrito">
+        <h2>Carrito de Compras (<span id="contador-carrito">0</span> productos)</h2>
+      <ul id="carrito-lista"></ul>
+      <p>Total: $<span id="carrito-total">0</span></p>
+      <button onclick="vaciarCarrito()">Vaciar Carrito</button>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Estética de Manos - Todos los derechos reservados</p>
+  </footer>
+  <script src="../js/shop.js"></script>
+</body>
+</html>
+
