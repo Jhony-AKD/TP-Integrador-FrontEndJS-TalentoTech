@@ -93,6 +93,18 @@ function vaciarCarrito() {
   renderizarCarrito();
 }
 
+function finalizarCompra() {
+  if (carrito.length === 0) {
+    alert("Tu carrito está vacío.");
+    return;
+  }
+
+  alert("¡Gracias por tu compra! Te estaremos contactando.");
+  carrito = [];
+  localStorage.removeItem("carrito");
+  renderizarCarrito();
+}
+
 renderizarCarrito();
 
 
